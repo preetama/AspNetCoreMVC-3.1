@@ -25,11 +25,11 @@ namespace BookStore.Repository
         {
             return new List<BookModel>()
             {
-                new BookModel() { Id = 1, Title = "MVC", Author = "Preetam" },
-                new BookModel() { Id = 2, Title = "C#", Author = "Preetam" },
-                new BookModel() { Id = 3, Title = "Java", Author = "Basudev" },
-                new BookModel() { Id = 4, Title = "Php", Author = "Rahul" },
-                new BookModel() { Id = 5, Title = "Python", Author = "Tanmaya" }
+                new BookModel() { Id = 1, Title = "MVC", Author = "Preetam", Description = "This is a MVC Book" },
+                new BookModel() { Id = 2, Title = "C#", Author = "Preetam", Description = "This is a C# Book" },
+                new BookModel() { Id = 3, Title = "Java", Author = "Basudev", Description = "This is a Java Book" },
+                new BookModel() { Id = 4, Title = "Php", Author = "Rahul", Description = "This is a Php Book" },
+                new BookModel() { Id = 5, Title = "Python", Author = "Tanmaya", Description = "This is a Python Book" }
             };
         }
     }
